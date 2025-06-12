@@ -1,3 +1,3 @@
 steps:
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['-m', 'rsync', '-r', 'web-pages/', 'gs://your-bucket-name']
+    args: ['-m', 'rsync', '-r', 'web-pages/', 'gs://suhana-web-deploy-bucket']
